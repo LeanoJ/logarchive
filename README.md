@@ -34,29 +34,20 @@ log-archive <operation> <archive_name> <directory> [--remove]
 
 ### Create Operation
 
-1. Create an archive named `backup` from the `/home/user/documents` directory:
-    ```bash
-    log-archive create backup /home/user/documents
-    ```
-
-2. Create an archive named `logs` from the `/var/log` directory:
+1. Create an archive named `logs` from the `/var/log` directory:
     ```bash
     log-archive create logs /var/log
     ```
 
-3. Create an archive named `project` from the `/home/user/project` directory and remove the directory after archiving:
+2. Create an archive named `project` from the `/home/user/project` directory and remove the directory after archiving:
     ```bash
     log-archive create project /home/user/project --remove
     ```
 
 ### Extract Operation
 
-1. Extract the `backup.tar.gz` archive into the `/home/user/restore` directory:
-    ```bash
-    log-archive extract backup.tar.gz /home/user/restore
-    ```
 
-2. Extract the `logs.tar.gz` archive into the `/var/logs/restore` directory:
+1. Extract the `logs.tar.gz` archive into the `/var/logs/restore` directory:
     ```bash
     log-archive extract logs.tar.gz /var/logs/restore
     ```
@@ -66,16 +57,6 @@ log-archive <operation> <archive_name> <directory> [--remove]
 1. List the contents of the `backup.tar.gz` archive:
     ```bash
     log-archive list backup.tar.gz
-    ```
-
-2. List the contents of the `logs.tar.gz` archive:
-    ```bash
-    log-archive list logs.tar.gz
-    ```
-
-3. List the contents of the `project.tar.gz` archive:
-    ```bash
-    log-archive list project.tar.gz
     ```
 
 ## Help
