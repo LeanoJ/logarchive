@@ -46,7 +46,6 @@ log-archive <operation> <archive_name> <directory> [--remove]
 
 ### Extract Operation
 
-
 1. Extract the `logs.tar.gz` archive into the `/var/logs/restore` directory:
     ```bash
     log-archive extract logs.tar.gz /var/logs/restore
@@ -58,7 +57,8 @@ log-archive <operation> <archive_name> <directory> [--remove]
     ```bash
     log-archive list backup.tar.gz
     ```
-
+  
+    
 ## Help
 
 To display the help message, use:
