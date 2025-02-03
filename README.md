@@ -5,12 +5,13 @@ https://roadmap.sh/projects/log-archive-tool
 
 ## Installation
 
-To use this script as a CLI command, move it to `/usr/local/bin` and rename it to `log-archive`:
+To install the `log-archive` CLI tool, run the following command:
 
 ```bash
-sudo mv script.sh /usr/local/bin/log-archive
-sudo chmod +x /usr/local/bin/log-archive
+curl -s https://github.com/LeanoJ/logarchive/blob/main/install.sh | bash
 ```
+
+The script will install the tool system-wide (in `/usr/local/bin`) or just for the user (in `~/bin`). For system-wide installation, sudo may be required. If using `~/bin`, make sure this directory is included in the PATH.
 
 ## Usage
 

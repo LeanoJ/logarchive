@@ -7,7 +7,7 @@
 
 # Example: System-wide installation
 INSTALL_DIR="/usr/local/bin"
-TOOL_NAME="logarchive"  # The command the user will call
+TOOL_NAME="log-archive"  # The command the user will call
 SCRIPT_URL="https://raw.githubusercontent.com/LeanoJ/logarchive/main/log-archive.sh"
 
 echo "Installing ${TOOL_NAME} to ${INSTALL_DIR} ..."
